@@ -12,6 +12,8 @@
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
+*.binlog
+*DS_Store
 
 # Mono auto generated files
 mono_crash.*
@@ -398,3 +400,7 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Do not commit these to source
+.packages
+artifacts/*
