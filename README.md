@@ -2,6 +2,8 @@
 
 A basic example of how to use MSBuild files in NuGet packages. This sample is geared toward use by .NET MAUI developers specifically but the overall concepts are applicable to .NET in general.
 
+See [DevOps read me](/README_DevOps.md) for details on the building and publishing with GitHub Actions.
+
 ## The Problem
 
 There are situations where, as a .NET MAUI NuGet package author, you may want to automate project configuration or perform custom build logic to simplify the setup process for users and reduce opportunity for errors and inconsistencies. For example, configuring some project settings, including package files with the requisite build actions, or performing other necessary operations through [MSBuild tasks](https://learn.microsoft.com/visualstudio/msbuild/msbuild-tasks?view=vs-2022#task-logic).
